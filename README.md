@@ -4,3 +4,6 @@
 
 ### ✅ 사용 기술
 - Java, Spring Boot, Gradle, MySQL, AWS, MyBatis
+
+### ✅ ERD
+![ERD](https://user-images.githubusercontent.com/108327480/216895301-d917cd29-01a2-4881-b54a-f8c35880dac3.png)
