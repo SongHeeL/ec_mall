@@ -6,6 +6,6 @@
 - Java, Spring Boot, Gradle, MySQL, AWS, MyBatis
 
 ### ✅ ERD
-자세한 사항은 👉 [WIKI_ERD](https://github.com/SongHeeL/ec_mall_1/wiki)
+자세한 사항은 👉 [WIKI_ERD](https://github.com/SongHeeL/ec_mall_1/wiki/3.-ERD)
 
 ![ERD](https://user-images.githubusercontent.com/108327480/216895301-d917cd29-01a2-4881-b54a-f8c35880dac3.png)
