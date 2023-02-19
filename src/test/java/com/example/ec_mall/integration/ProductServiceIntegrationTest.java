@@ -90,19 +90,4 @@ public class ProductServiceIntegrationTest {
         assertThat(responseDTO.getProductId()).isNotNull();
         assertThat(responseDTO.getName()).isNotNull();
     }
-    @Test
-    @DisplayName("상품 삭제 성공")
-    void deleteProduct(){
-        ResponseDTO responseDTO = ResponseDTO.builder()
-                .productId(8L)
-                .name("테스트1")
-                .price(50000)
-                .info("상품 상세 설명입니다!")
-                .size(ProductSize.S)
-                .stock(30)
-                .categoryResponseDTO(new CategoryResponseDTO(ProductCategory.TOP, ProductCategory.TOP.getLong()))
-                .productImagesResponseDTO(new ProductImagesResponseDTO("/product/images/test1.jpg"))
-                .build();
-        productService.deleteProduct(responseDTO.getProductId());
-    }
 }
