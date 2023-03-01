@@ -12,6 +12,7 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+    branches-ignore: -'test'
 
 permissions:
   contents: read
