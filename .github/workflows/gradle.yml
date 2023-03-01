@@ -9,9 +9,9 @@ name: Java CI with Gradle
 
 on:
   push:
-    branches: [ "main" ]
-    paths-ignore:
-      - 'test/**'
+    branches:
+      - 'main/**'
+      - '!test/**'
   pull_request:
     branches: [ "main" ]
 
