@@ -10,8 +10,10 @@ name: Java CI with Gradle
 on:
   push:
     branches: [ "main" ]
+    paths-ignore:
+      - 'test/**'
   pull_request:
-    branches-ignore: [ "test" ]
+    branches: [ "main" ]
 
 permissions:
   contents: read
